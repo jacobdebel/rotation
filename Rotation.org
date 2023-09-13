@@ -1,0 +1,260 @@
+#+title: Rotation
+#+subtitle: Lidt sjov og ballade
+#+author: Jacob Debel
+#+date: 
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background: ./img/fail-spin.gif
+#+reveal_title_slide_background_position: center bottom 100px
+#+reveal_title_slide_background_size: 30%
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* En cykel
+#+attr_html: :width 400px
+[[./img/hurtig_cykel.jpg]]
+
+** Hvor hurtigt drejer hjulene rundt?
+Altså frekvensen (antal omgange på ét sekund)
+
+#+BEGIN_EXPORT html
+<video controls width="600">
+<source src="./video/cykel.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+#+reveal: split
+
+Hvilke oplysninger har I brug for?
+
+#+attr_reveal: :frag (appear)
+- En formel med en forklaring?
+- Vinkler, grader og radianer?
+- Størrelsen på hjulene?
+
+** Størrelser og formler
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+*Størrelser*
+| $T$      | Periode         |
+| $\omega$ | Vinkelhastighed |
+| $v$      | Hastighed/fart  |
+| $f$      | Frekvens        |
+| $O$      | Omkreds         |
+| $r$      | Radius          |
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+*Formler*
+- $f=\frac{1}{T}$
+- $\omega = \frac{2 \pi}{T}$
+- $\omega = 2 \pi f$
+- $O = 2 \pi r$
+- $v = \omega \cdot r$
+- $v = \frac{2 \pi r}{T} = \frac{O}{T}$
+#+reveal_html: </div>
+
+** Grader og radianer
+
+#+attr_html: :width 600px
+[[file:img/2021-04-19_16-00-05_screenshot.png]]
+
+** Hvor hurtigt drejer hjulene rundt?
+Udfør jeres beregninger.
+
+** Hvad er jeres resultater?
+* Vindmølle
+#+attr_html: :width 500px
+[[./img/staerk_vindmoelle.webp]]
+
+** Hvad er vingespidsernes fart?
+
+#+BEGIN_EXPORT html
+<video controls width="600">
+<source src="./video/horns_rev_2.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+#+reveal: split
+
+Hvilke oplysninger har I brug for?
+
+#+attr_reveal: :frag (appear)
+- Rotationshastighed(vinkelhastighed)?
+- Frem med jeres stopure(mobiler)!
+- Vingernes størrelse?
+- Vindmølleparken hedder *Horns rev 2*
+** Hvad er vingespidsernes fart?
+Udfør jeres beregninger.
+
+** Hvad er jeres resultater?
+
+* Virkelig gamle racercykler
+#+attr_html: :width 400px
+[[./img/the-penny-farthing-bike-race-vintage.gif]]
+
+Hvorfor så de sådan ud?
+
+* Hvorfor vælter vi ikke på cykel? 
+#+attr_html: :width 500px
+[[./img/bicycle-small.gif]]
+
+** Demonstration
+#+attr_html: :width 400px
+[[./img/cykelhjul.jpg]]
+** Det skyldes præcession
+Som I kender det fra en ...
+
+*** Snurretop!
+[[./img/snurretop_mand.gif]]
+
+#+attr_reveal: :frag (appear)
+Hov, ikke den...
+
+
+*** Men den
+[[./img/snurretop.gif]]
+
+*** Jorden gør det samme
+#+attr_html: :width 400px
+[[./img/earth_precession.gif]]
+
+Præcessionsperioden er på 25800 år!
+
+*** Det kan vises i stellarium
+[[./img/stellarium.png]]
+    
+* And now for something completely different
+
+#+attr_html: :width 500px
+[[./img/completely_different.gif]]
+* Hvad har det her med hinanden at gøre?
+#+reveal_html: <div style="display: grid; grid-template-columns: auto 70%;">
+#+reveal_html: <div>
+#+attr_html: :width 300px
+[[./img/oelkrus.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 700px
+[[./img/EM-stadions.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Nej, det var ikke lige det
+#+attr_html: :width 500px
+[[./img/fodbold_fadoel.jpg]]
+
+** Men det her!
+#+reveal_html: <div style="display: grid; grid-template-columns: auto 60%;">
+#+reveal_html: <div>
+[[./img/magnuseffekt_kopper.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/roberto-carlos.gif]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Lad os bygge dem selv
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/byggevejledning.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Fold nogle stykker tape, som kan holde de to bunde af kopperne sammen.
+- Sæt tape langs samlingen af de to bunde.
+- Bind 3 elastikker sammen til en lang.
+- Vikl den lange elastik omkring samlingen af kopperne.
+- Slip kopperne, så de flyver afsted.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** En yderligere forklaring
+
+#+begin_export html
+<iframe width="600" height="400" src="https://www.youtube.com/embed/2OSrvzNW9FE" title="Backspin Basketball Flies Off Dam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
+
+** Gedser-Rostock
+#+reveal_html: <div style="display: grid; grid-template-columns: auto 60%;">
+#+reveal_html: <div>
+[[./img/gedser_rostock.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 600px
+[[./img/faergerute.png][file:img/faergerute.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+Det bruges også i Danmark!
+
+* Er der ik' mer' i hatten?
+
+#+attr_html: :width 500px
+[[./img/hat_kanin.gif]]
+
+* Yoda ka' I tro
+
+#+attr_html: :width 400px
+[[./img/yoda.gif]]
+
+* Rulle op ad bakke
+#+DOWNLOADED: screenshot @ 2019-11-26 07:54:49
+#+attr_html: :width 600px
+[[file:img/2019-11-26_07-54-49_screenshot.png]]
+* Satellit i geostationær bane
+
+** Hvor højt ligger en geostationær satellit over Jordens overflade?
+
+#+BEGIN_EXPORT html
+<video controls width="600">
+<source src="./video/geostationaer_bane.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+#+attr_reveal: :frag (appear)
+Hvad ser I?
+
+#+reveal: split
+
+Hvilke oplysninger har I brug for?
+
+#+attr_reveal: :frag (appear)
+- Noget baggrundsviden?
+- Nogle oplysninger om Jorden?
+- Nogle oplysninger om satellitten?
+  
+** Newtons gravitationslov + centripetalkraft
+$$F_G = G \cdot \frac{m\cdot M}{R^2}$$
+
+$$F_{res} = m \cdot a = m \cdot \omega^2\cdot r = m \cdot \frac{v^2}{r}$$
+
+* Hvad har det her med hinanden at gøre?
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/americal_football.gif]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/tyske_kanoner.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* And know for something completely different, again!
+
+#+attr_html: :width 400px
+[[./img/completely_different_again.gif]]
+
+* Hvor mange af jer er medlemmer af isbjørnenes klub?
+
+#+attr_reveal: :frag (appear)
+Så må I hellere se at blive det.
+[[https://jacobdebel.github.io/Isbjoernenes_klub/]]
+
