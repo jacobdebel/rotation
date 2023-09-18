@@ -247,7 +247,7 @@ $$F_{res} = m \cdot a = m \cdot \omega^2\cdot r = m \cdot \frac{v^2}{r}$$
 #+reveal_html: </div>
 #+reveal_html: </div>
 
-* And know for something completely different, again!
+* And now for something completely different, again!
 
 #+attr_html: :width 400px
 [[./img/completely_different_again.gif]]
