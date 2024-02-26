@@ -255,6 +255,7 @@ $$F_{res} = m \cdot a = m \cdot \omega^2\cdot r = m \cdot \frac{v^2}{r}$$
 * Hvor mange af jer er medlemmer af isbjørnenes klub?
 
 #+attr_reveal: :frag (appear)
-Så må I hellere se at blive det.
-[[https://jacobdebel.github.io/Isbjoernenes_klub/]]
+- Så må I hellere se at blive det.
+
+  [[https://jacobdebel.github.io/Isbjoernenes_klub/]]
 
